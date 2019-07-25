@@ -341,23 +341,18 @@ button {
 @media screen and (max-width: 640px) {
     #navbar {
         background-color: #ffffff;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 75px;
+        position: static;
+        height: auto;
         border-bottom: 2px solid #cccccc;
-        position: relative;
     }
     
     #nav-content {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 100%;
+        margin-left: 0%;
     }
     
     #header-name-card {
-        float: left;
+        float: none;
         height: 75px;
     }
     
@@ -372,16 +367,19 @@ button {
     }
     
     #nav-links {
-        width: 50%;
         height: 75px;
         line-height: 75px;
-        position: static;
-        display: inline-block
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        float: none;
+        display: block;
     }
     
     .links {
         float: right;
         padding: 0px 5px 0px 5px;
+        /* text-align: center; */
     }
 
     #content {
