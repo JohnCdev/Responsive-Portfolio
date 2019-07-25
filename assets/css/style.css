@@ -207,11 +207,13 @@ button {
     float: left;
     margin-right: 30px;
     margin-bottom: 35px;
+    width: 275px;
+    height: 220px;
 }
 
 .portfolio-img {
-    height: 220px;
-    width: 275px;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-label {
@@ -237,9 +239,10 @@ button {
     }
 
     #content {
-        width: 70%;
+        width: 740px;
         display: block;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -255,6 +258,7 @@ button {
         margin-left: 5%;
         margin-right: 5%;
     }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -284,5 +288,9 @@ button {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    #icons {
+        margin-left: 5%;
     }
 }
